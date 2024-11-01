@@ -13,7 +13,7 @@ def clean_company_name(company):
     return company or ""
 
 # Function to fetch users from the GitHub API
-def fetch_users(city="Singapore", min_followers=100):
+def fetch_users(city="Sydney", min_followers=100):
     users = []
     page = 1
 
